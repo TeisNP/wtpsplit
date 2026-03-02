@@ -24,7 +24,7 @@ setup(
         "onnx-gpu": ["onnxruntime-gpu>=1.13.1"],
         "onnx-cpu": ["onnxruntime>=1.13.1"],
     },
-    url="https://github.com/segment-any-text/wtpsplit",
+    url="https://github.com/TeisNP/wtpsplit",
     package_data={"wtpsplit": ["data/*"]},
     include_package_data=True,
     license="MIT",
