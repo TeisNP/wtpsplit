@@ -11,7 +11,7 @@ setup(
     install_requires=[
         # "onnxruntime>=1.13.1", # can make conflicts between onnxruntime and onnxruntime-gpu
         "transformers>=5.2.0",
-        "huggingface-hub<1.0",  # v1.0 has breaking changes (HfFolder removed)
+        "huggingface-hub>=1.0",  # v1.0 has breaking changes (HfFolder removed)
         "numpy>=1.0",
         "scikit-learn>=1",
         "tqdm",
